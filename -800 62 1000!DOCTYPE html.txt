@@ -1,0 +1,16 @@
+-800 62 1000<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Redirect</title>
+    <script>
+        window.onload = function() {
+            var mailtoLink = 'mailto:wizarddetailing775@gmail.com?subject=Appointment%20Request&body=I%20would%20like%20to%20schedule%20an%20appointment%20for%20your%20detailing%20services!';
+            window.location.href = mailtoLink;
+        };
+    </script>
+</head>
+<body>
+    Redirecting you to email client...
+</body>
+</html>
